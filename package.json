@@ -1,0 +1,25 @@
+{
+	"name": "atcute-bsky-feedgen-example",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types",
+		"format": "prettier --cache --write ."
+	},
+	"devDependencies": {
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.3",
+		"wrangler": "^4.17.0"
+	},
+	"dependencies": {
+		"@atcute/atproto": "^3.0.3",
+		"@atcute/bluesky": "^3.0.4",
+		"@atcute/identity": "^1.0.2",
+		"@atcute/identity-resolver": "^1.1.3",
+		"@atcute/lexicons": "^1.0.4",
+		"@atcute/xrpc-server": "^0.1.1"
+	}
+}
